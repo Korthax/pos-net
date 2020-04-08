@@ -4,6 +4,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 ProjectSection(SolutionItems) = preProject
 	README.md = README.md
 	LICENSE = LICENSE
+	build.ps1 = build.ps1
 EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pos.Net.Core", "src\Pos.Net.Core\Pos.Net.Core.csproj", "{7A80130C-9CB4-4679-8F1B-9A75E0EF4128}"
