@@ -28,7 +28,7 @@ namespace Pos.Net.Core
             _rules = newRules;
         }
 
-        public List<Action<List<PartOfSpeech>, int>> GetRules()
+        public IEnumerable<Action<List<PartOfSpeech>, int>> GetRules()
         {
             return _rules;
         }

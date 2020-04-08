@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Pos.Net.Core
 {
@@ -24,7 +23,7 @@ namespace Pos.Net.Core
             return ss != null;
         }
 
-        public List<PartOfSpeech> Tag(List<string> words)
+        public IEnumerable<PartOfSpeech> Tag(List<string> words)
         {
             var taggedSentence = new List<PartOfSpeech>();
 
@@ -51,12 +50,6 @@ namespace Pos.Net.Core
             }
 
             return taggedSentence;
-        }
-
-        public void PrettyPrint(IEnumerable<PartOfSpeech> taggedWords)
-        {
-            foreach(var taggedWord in taggedWords)
-                Console.WriteLine(taggedWord.Word + "(" + taggedWord.Tag + ")");
         }
 
         public void ExtendLexicon(Dictionary<string, string[]> lexicon)
