@@ -15,7 +15,7 @@ lexicon.
 
 ## Install
 
-`TODO`
+[![NuGet Version](http://img.shields.io/nuget/v/Pos.Net.Core.svg?style=flat)](https://www.nuget.org/packages/Pos.Net.Core)
 
 ## Usage
 
